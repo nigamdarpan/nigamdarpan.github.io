@@ -1,19 +1,219 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	  <title>Nigam Darpan</title>
-	  <LINK href="styles.css" rel="stylesheet" type="text/css">
-	</head>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/w3.css">
+<link rel="stylesheet" href="assets/css/theme-blue.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 0px;
+  bottom: 0;
+  height: inherit;
+}
+.w3-image_10{max-width:10%;height:auto}img{vertical-align:middle}a{color:inherit}
+.w3-image_30{max-width:30%;height:auto}img{vertical-align:middle}a{color:inherit}
+.w3-image_50{max-width:50%;height:auto}img{vertical-align:middle}a{color:inherit}
+.w3-image_70{max-width:70%;height:auto}img{vertical-align:middle}a{color:inherit}
+</style>
+<body>
 
-	<body>
-		<table align="center">
-			<tr>
-				<td><img src="logo.jpg" alt="" border=3 height=600 width=1000></img></td>			
-			</tr>
-			<tr>
-				<td border=3 height=100 width=100>Coming Soon ....</td>
-			</tr>
-		</table>
-	</body>
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-48 w3-blue" style="margin-left:250px">
+  <div class="w3-row">
+    <div class="w3-third w3-container">
+      <img class="w3-image_30" src="assets\image\logo1.jpg">
+    </div>
+    <div class="w3-third w3-container">
+      <h1 class="w3-xxxlarge"><b>NIGAM DARPAN</b></h1>
+	  <h6>Welcome to <span class="w3-tag">Nigam Parivaar</span></h6>
+    </div>
+	<div class="w3-third w3-container">
+		<img class="w3-image_50" src="assets\image\peacock1.png">
+    </div>
+  </div>
+</header>
+
+<!-- Navbar -->
+<div class="w3-right">
+  <div class="w3-bar w3-theme w3-right w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>    
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Events</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Today's Speech</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Gallery</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">References</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Contact Us</a>
+  </div>
+</div>
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Introduction">Introduction</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Biography">Biography</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Teaching">Teaching</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Conclusion">Conclusion</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-container" >
+    <h1 class="w3-text-teal" id="Introduction">Introduction</h1>
+  </div>
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <p>Swami Nigamananda Paramahansa (born Nalinikanta Chattopadhyay; 18 August 1880 – 29 November 1935) is a Sadguru, Hindu yogi, guru and mystic well known in 
+        Eastern India.[3][4][5][6] He is associated with the Shakta tradition and viewed as a perfect spiritual master of tantra, gyan, yoga and prema or bhakti.
+        His followers idealized him as their worshipped and beloved thakura.
+     Nigamananda was born into a Bengali Brahmin family in the hamlet of Kutabpur in Nadia district (at present Meherpur district Bangladesh).
+      He was a sannyasi from Adi Shankar's dashanami sampradaya. After his ordination as a sannyasi, he came to be known as 
+      Paribrajakacharya Paramahansa Srimat Swami Nigamananda Saraswati Deva.
+     Nigamananda achieved siddhi (perfection) in four different sadhanas (spiritual disciplines): tantra, gyan, yoga and prema. 
+     Based on these experiences, he wrote five Bengali language books: Brahamcharya Sadhana (ब्रह्मचर्य साधन), Yogi Guru (योगिगुरु), Gyani Guru (ज्ञानीगुरु),
+      Tantrika Guru (तांत्रिकगुरु), and Premik Guru (प्रेमिकगुरु). Nigamananda reportedly experienced the state of Nirvikalpa Samadhi.
+     After retiring from Saraswata Matha, Nigamananda spent the last fourteen years of his life in Puri. Durga Charan Mohanty, a school student, 
+     met him at Nilachala Kutir in 1930 and recognized him as sadguru.[18] Mohanty became Nigamananda's disciple and wrote books for Nigamananda's 
+     establishment Nilachala Saraswata Sangha and translated Nigamananda's Bengali books into Odia. Under Mohanty's encouragement, more than 100 ashrams
+      operate in Odisha. Mohanty continued to spread the message of Nigamananda until his death on 7 December 1985.
+    </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding w3-center">
+        <img class="w3-image" src="assets\image\logo.jpg" >
+      </p>
+    </div>
+  </div>
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal" id="Biography">Biography</h1>
+      <p>The district of Nadiya in the state of Bengal in India has been a very famous place since a long time. The renowned Vaisnav saint Mahaprabhu Shri Chaitanyadev 
+        was born at Nabadwipa, a holy place in this district. It is also the birthplace of several Vaisnav saints and a number of holy men. At that time, Nabadwipa was
+         an important seat of learning in Bengal. After the birth of Chaitanyadev, Nabadwipa also became famous for ‘Bhakti Dharma’, the cult of devotional worship of 
+         God. The people of Nadiya were highly influenced by the tradition of harmony of Jnana (knowledge) and Bhakti (devotion) prevailing in this district for a long
+          time. Kutabpur is a small village in the then subdivision of Meherpur in the district of Nadiya. Now Meherpur is a full-fledged district in the present
+           Bangladesh, a new small country adjoining India. It is situated on the bank of the river Vairab. Kutabpur village is a place of residence of various kinds of people including 
+      Muslims, weavers, blacksmiths and pottery makers. A few upper caste Hindus also lived in this village.
+     Bhubanmohan Bhattacharya, a devout Hindu Brahmin, was an important person of the village. The villagers respected him as a kindhearted, learned and pious Hindu.
+      His family surname was Chattopadhyay. Since their family had the legacy of serving as priests, the villagers showed respect to the family by addressing them as 
+      ‘Bhattacharya family’. Therefore, Bhubanmohan was known in the locality as Bhubanmohan Bhattacharya and not as Bhubanmohan Chattopadhyay.
+	  </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">[bigraha]</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">[bigraha]</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal" id="Teaching">Teaching</h1>
+      <p>Other key teachings of Nigamananda as stated by Chetnananda Saraswati are:
+    Spiritual liberation requires the help of a liberated person (a Master Sadguru or simply Guru). In the Hindu scriptures that person is known as Guru. 
+    Without his grace or favor none can make progress. He who has attained the ultimate reality (Paramatman or Brahman) as one and the same as himself (the Atman)
+     is the Guru. The Guru cannot be equated in importance to formal learning, pilgrimage or divinity. No other is more worthy of respect.
+		The Guru is the embodiment of what the Vedanta teaches – the individual self (the Atman) is one and the same as the cosmic self (Paramatman or Brahman).
+    A Sadguru never curses anyone. Even his anger helps the disciple. The advantage of depending on a Sadguru is unique and is superior to depending on God because
+     God never materializes to give instructions.
+		The Guru and the disciple are inseparable in a way. The Guru cannot exist without being a part of a true disciple's personality or character.
+    The two pathways to liberation are by initiation into and observation of the austerities of sannyasa yoga or by service to a Sadguru.
+     The former is extremely arduous – the disciple must in a sense die. In other words, he must lose body consciousness. 
+     But if one unconditionally loves the Guru by way of rendering service to him sincerely, spiritual liberation may be obtained relatively easily.
+		Nothing substantial can be achieved without Guru's grace.
+    The mantra that Guru gives during initiation and the disciple's chosen divinity (or Ista) are the same. Unless the Guru becomes the chosen divinity, 
+    the mantra received loses its power.
+    Acquisition of disciples is not Guru's profession; it is his heart's inspiration. The Guru cares for and guides the disciple hoping that one day the
+     disciple will get spiritually enlightened.
+	</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">[bigraha]</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">[bigraha]</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal" id="Conclusion">Conclusion</h1>
+      <p>
+		  ମନ ପୂଜା ତୋର ବିଫଳେ ନ ଯିବ, ପ୍ରିୟତମ ତୋର ଆସିବେ ରେ <br>
+		କୁସୁମ ଆସନ ସଜାଇ ରଖ ତୁ ପରାଣ ଦେବତା ବସିବେ ରେ ॥ <br>
+
+		ବାସନା କାମନା ଧୂପ ଦିଅ ଜାଳି, ତା ନାମ ଫୁଲ ରେ ଗୁନ୍ଥ ବନମାଳି <br>
+		ନୟନ ତାରାରେ ରଚ ଦୀପାବଳି ଆସିବେ ତୋ ମନ ତୋଷିବେ ରେ ॥<br>
+
+		ଗୋଳି ରଖ ଆଖି ନୀରେ ତୁ ଚନ୍ଦନ, ଚରଣରେ ମାଖି ତୁ କରିବୁ ବନ୍ଦନ <br>
+		ସେବକ ତୁ ପଦ ସେବାର ଭାଜନ ହୁଡିଲେ ସୁନ୍ଦର ରୁଷିବେ ରେ ॥<br>
+
+		ଝଡ ବତାସରେ ଆବାହନ କର, ନେଳି ମେଘ ତଳେ ଘର ପରା ତାର<br>
+		ଘୁଞ୍ଚିଲେ ବାଦଲ ବିଜେ କରିବେ ସେ ତୋ ମଥା ଆଉଁସି ହସିବେ ରେ ॥<br>
+
+		ନ କହିବୁ କିଛି ନ ମାଗିବୁ କିଛି ତୋର ମନ ପୋଥି ପାଠ ସେ ପଢିଛି<br>
+		ଭକତିରେ ଖାଲି ମଥା ନୂଆଇଁଲେ ତୋ ମନ ଠାକୁର ରସିବେ ରେ ॥<br>
+	</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">[bigraha]</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">[bigraha]</p>
+    </div>
+  </div>
+  
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-small">
+      <h8>All rights reserved @nigamdarpan.com 2020</h8>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
 </html>
