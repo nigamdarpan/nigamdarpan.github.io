@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Nigam Darpan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/w3.css">
+<link rel="stylesheet" href="assets/css/theme-blue.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="assets/image/peacock12.ico">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 0px;
+  bottom: 0;
+  height: inherit;
+}
+.w3-image_10{max-width:10%;height:auto}img{vertical-align:middle}a{color:inherit}
+.w3-image_30{max-width:30%;height:auto}img{vertical-align:middle}a{color:inherit}
+.w3-image_50{max-width:50%;height:auto}img{vertical-align:middle}a{color:inherit}
+.w3-image_70{max-width:70%;height:auto}img{vertical-align:middle}a{color:inherit}
+</style>
+<body>
+
+<!-- Header -->
+<header class="w3-center w3-padding-48 w3-blue">
+  <div class="w3-row w3-container w3-main" style="margin-left:250px">
+    <div class="w3-third ">
+      <img class="w3-image_30" src="assets\image\logo1.jpg">
+    </div>
+    <div class="w3-third">
+      <h1 class="w3-xxxlarge"><b>NIGAM DARPAN</b></h1>
+	  <h6>Welcome to <span class="w3-tag">Nigam Parivaar</span></h6>
+    </div>
+	<div class="w3-third">
+		<img class="w3-image_50" src="assets\image\peacock1.png">
+    </div>
+  </div>
+</header>
+
+<!-- Navbar -->
+<div class="w3-right">
+  <div class="w3-bar w3-theme w3-right w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>    
+    <a href="index.html" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-white">Events</a>
+    <a href="thakura-vani.html" class="w3-bar-item w3-button w3-hover-white">Thakura Vani</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-white">Downloads</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">About</a>
+    <a href="contact-us.html" class="w3-bar-item w3-button w3-hide-medium w3-hover-white">Contact Us</a>
+  </div>
+</div>
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#picture_gallery">Picture Gallery</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#video_gallery">Video Gallery</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#songs_gallery">Songs Gallery</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#books_gallery">Books Gallery</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#lyrics">Lyrics</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Picture Gallery section-->
+  <div class="w3-row w3-container" >
+    <h1 class="w3-text-teal" id="picture_gallery">Picture Gallery</h1>
+  </div>
+  <div class="w3-row">
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding w3-center">
+        <img class="w3-image_70" src="assets\sribigraha\bigraha_1.jpg" >
+      </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding w3-center">
+        <img class="w3-image_50" src="assets\sribigraha\bigraha_2.jpg" >
+      </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding w3-center">
+        <img class="w3-image_50" src="assets\sribigraha\bigraha_3.jpg" >
+      </p>
+    </div>
+  </div>
+
+  <!-- Video Gallery section-->
+  <div class="w3-row w3-container">
+      <h1 class="w3-text-teal" id="video_gallery">Video Gallery</h1>
+  </div>
+  <div class="w3-row">
+    <div class="w3-third w3-container">
+        <iframe src="https://www.youtube.com/embed/wTgHbISO6YY">
+        </iframe>
+        <h6 class="w3-center">(ମନ ପୂଜା ତୋର ବିଫଳେ ନ ଯିବ)</h6>
+    </div>
+    <div class="w3-third w3-container">
+      <iframe src="https://www.youtube.com/embed/ri4DVRNRsGk">                
+      </iframe>
+      <h6 class="w3-center">(କାହିଁକି ତୁ ଯାଉ ତାଙ୍କୁ ଭୁଲି)</h6>
+    </div>
+    <div class="w3-third w3-container">
+      <iframe src="https://www.youtube.com/embed/zOS0kCPKV7w">                
+      </iframe>
+      <h6 class="w3-center">(ସୁନ୍ଦର ପ୍ରଭାତ କୋଳେ)</h6>
+    </div>
+  </div>  
+
+  <!-- Songs Gallery section-->
+  <div class="w3-row w3-container">
+      <h1 class="w3-text-teal" id="songs_gallery">Songs Gallery</h1>
+  </div>
+  <div class="w3-row">
+    <div class="w3-third w3-container">
+      <iframe width="100%" height="390" scrolling="no" frameborder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_3585525?widget_id=55&pwc[included_songs]=1&context_type=page_object&pwc[color]=blackwhite" style="width:0px;min-width:100%;max-width:100%;"></iframe>
+      <h6 class="w3-center">(ନିଗମ ପ୍ରାର୍ଥନା - ୧)</h6>
+    </div>
+    <div class="w3-third w3-container">
+      <iframe width="100%" height="390" scrolling="no" frameborder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_6854934?widget_id=55&pwc[included_songs]=1&context_type=page_object&pwc[color]=blackwhite" style="width:0px;min-width:100%;max-width:100%;"></iframe>
+      <h6 class="w3-center">(ନିଗମ ପ୍ରାର୍ଥନା - ୨)</h6>
+    </div>
+    <div class="w3-third w3-container">
+      <iframe width="100%" height="390" scrolling="no" frameborder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_6878277?widget_id=55&pwc[included_songs]=1&context_type=page_object&pwc[color]=blackwhite" style="width:0px;min-width:100%;max-width:100%;"></iframe>
+      <h6 class="w3-center">(ନିଗମ ପ୍ରାର୍ଥନା - ୩)</h6>
+    </div>
+    <div class="w3-third w3-container">
+      <iframe width="100%" height="390" scrolling="no" frameborder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_6863880?widget_id=55&pwc[included_songs]=1&context_type=page_object&pwc[color]=blackwhite" style="width:0px;min-width:100%;max-width:100%;"></iframe>
+      <h6 class="w3-center">(ନିଗମ ପ୍ରାର୍ଥନା - ୪)</h6>
+    </div>
+    <div class="w3-third w3-container">
+      <iframe width="100%" height="390" scrolling="no" frameborder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_6654968?widget_id=55&pwc[included_songs]=1&context_type=page_object&pwc[color]=blackwhite" style="width:0px;min-width:100%;max-width:100%;"></iframe>
+      <h6 class="w3-center">(ନିଗମ ପ୍ରାର୍ଥନା - ୫)</h6>
+    </div>
+  </div>
+
+  <!-- Books Gallery section-->
+  <div class="w3-row w3-container">
+    <h1 class="w3-text-teal" id="books_gallery">Books Gallery</h1>
+  </div>
+  <div class="w3-row">
+    <div class="w3-third w3-container">
+      <a href="https://archive.org/details/Thakur.Nigamananda.Odia/mode/2up">ଠାକୁର ନିଗମାନନ୍ଦ (Thakura Nigamananda in Odia)</a>
+    </div>
+    <div class="w3-third w3-container">
+      <a href="https://archive.org/details/Yogi.Guru.Nigamananda.Odia">ଯୋଗୀ ଗୁରୁ (Yogi Guru in Odia)</a>
+    </div>  
+    <div class="w3-third w3-container">
+      <a href="https://archive.org/details/Jnani.Guru.Nigamananda.Odia">ଜ୍ଞାନୀ ଗୁରୁ (Gyani Guru in Odia)</a>
+    </div>  
+    <div class="w3-third w3-container">
+      <a href="https://archive.org/details/Tantrika.Guru.Nigamananda">ତାନ୍ତ୍ରିକ ଗୁରୁ (Tantrika Guru in Odia)</a>
+    </div>  
+    <div class="w3-third w3-container">
+      <a href="https://archive.org/details/Vedanta.Viveka.Paramahansa.Nigamananda">ବେଦାନ୍ତ ବିବେକ (Vedanta Viveka in Odia)</a>
+    </div>  
+    <div class="w3-third w3-container">
+      <a href="https://archive.org/details/Brahmacharya.Saadhana.Odia">ବ୍ରହ୍ମଚର୍ଯ୍ୟ ସାଧନ (Brahmacharya Saadhana in Odia)</a>
+    </div>      
+    <div class="w3-third w3-container">
+      <a href="https://archive.org/details/BholaraAtmasmruti">ଭୋଳାର ଆତ୍ମସ୍ମୃତି (Bhola ra Atma smruti in Odia)</a>
+    </div>      
+    <div class="w3-third w3-container">
+      <a href=" https://archive.org/details/Maa.nka.Krupa">ମାଆଙ୍କ କୃପା (Maa nka Krupa in Odia)</a>
+    </div>          
+  </div>
+
+  <div class="w3-row w3-padding-64 w3-container">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal" id="lyrics">Lyrics</h1>
+    </div>
+    <div class="w3-row">
+      <div class="w3-twothird w3-container">
+        <p>
+          ମନ ପୂଜା ତୋର ବିଫଳେ ନ ଯିବ, ପ୍ରିୟତମ ତୋର ଆସିବେ ରେ <br>
+          କୁସୁମ ଆସନ ସଜାଇ ରଖ ତୁ ପରାଣ ଦେବତା ବସିବେ ରେ ॥ <br>
+
+          ବାସନା କାମନା ଧୂପ ଦିଅ ଜାଳି, ତା ନାମ ଫୁଲ ରେ ଗୁନ୍ଥ ବନମାଳି <br>
+          ନୟନ ତାରାରେ ରଚ ଦୀପାବଳି ଆସିବେ ତୋ ମନ ତୋଷିବେ ରେ ॥<br>
+
+          ଗୋଳି ରଖ ଆଖି ନୀରେ ତୁ ଚନ୍ଦନ, ଚରଣରେ ମାଖି ତୁ କରିବୁ ବନ୍ଦନ <br>
+          ସେବକ ତୁ ପଦ ସେବାର ଭାଜନ ହୁଡିଲେ ସୁନ୍ଦର ରୁଷିବେ ରେ ॥<br>
+
+          ଝଡ ବତାସରେ ଆବାହନ କର, ନେଳି ମେଘ ତଳେ ଘର ପରା ତାର<br>
+          ଘୁଞ୍ଚିଲେ ବାଦଲ ବିଜେ କରିବେ ସେ ତୋ ମଥା ଆଉଁସି ହସିବେ ରେ ॥<br>
+
+          ନ କହିବୁ କିଛି ନ ମାଗିବୁ କିଛି ତୋର ମନ ପୋଥି ପାଠ ସେ ପଢିଛି<br>
+          ଭକତିରେ ଖାଲି ମଥା ନୂଆଇଁଲେ ତୋ ମନ ଠାକୁର ରସିବେ ରେ ॥<br>
+        </p>
+      </div>
+      <div class="w3-third w3-container">
+        <p class="w3-border w3-padding w3-center">
+          <img class="w3-image" src="assets\image\logo.jpg" >
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-small">
+      <h8>All rights reserved @nigamdarpan.com 2020</h8>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
