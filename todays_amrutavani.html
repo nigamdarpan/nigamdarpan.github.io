@@ -21,6 +21,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 .w3-image_30{max-width:30%;height:auto}img{vertical-align:middle}a{color:inherit}
 .w3-image_50{max-width:50%;height:auto}img{vertical-align:middle}a{color:inherit}
 .w3-image_70{max-width:70%;height:auto}img{vertical-align:middle}a{color:inherit}
+
+.imageborder {
+  border: 30px solid pink;
+  border-image-source: url('assets/image/border.png');
+  border-image-slice: 58 90;
+  border-image-repeat: round;
+}
 </style>
 <body>
 
@@ -44,8 +51,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <a href="index.html" class="w3-bar-item w3-button w3-hover-white">Home</a>
     <a href="events.html" class="w3-bar-item w3-button w3-hover-white">Events</a>
     <a href="thakura-vani.html" class="w3-bar-item w3-button w3-hover-white">Thakura Vani</a>
-    <a href="todays_amrutavani.html" class="w3-bar-item w3-button w3-hover-white">Today's Amrutavani</a>
     <a href="gallery.html" class="w3-bar-item w3-button w3-hover-white">Gallery</a>
+    <a href="downloads.html" class="w3-bar-item w3-button w3-hover-white">Downloads</a>
     <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">About</a>
     <a href="contact-us.html" class="w3-bar-item w3-button w3-hide-medium w3-hover-white">Contact Us</a>
   </div>
@@ -56,29 +63,31 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <i class="fa fa-remove"></i>
   </a>
   <h4 class="w3-bar-item"><b>Menu</b></h4>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#books_gallery">Download Books</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#todays_amrutavani">Today's Amrutavani</a>
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
+<!-- ########################################       CONTENT       ############################################################ -->
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
 <div class="w3-main" style="margin-left:250px">
 
-  <!-- Books Gallery section-->
-  <div class="w3-row w3-container">
-    <h1 class="w3-text-teal" id="books_gallery">Download Books</h1>
+  <div class="w3-row w3-container" >
+    <h1 class="w3-text-teal" id="thakura_vani">Today's Amrutavani (<script> document.write(new Date().toDateString()); </script>)</h1>
+    <p>
+      
+    </p>
   </div>
-  <div class="w3-row">
-    <div class="w3-third w3-container">
-      <p>Click on the Book Image to download:<p>
-        <a href="assets\books\Sri Sri Thakur Nigamananda (Odia).pdf">
-          <img class= "w3-image_70" src="assets\books\ThakuraNigamananda.PNG" alt="thakura nigamananda">
-        </a>  
-        </p>          
-    </div>        
+  <div class="w3-container imageborder w3-padding">
+    <ul style="list-style-image: url('assets/image/om.png');">
+      <li>
+        "I exist and will continue to exist and will guide you in the same manner even after I leave my mortal body. I remain guru for all the time to come. I will not get salvation until my last devotee attains salvation."
+        <br><b>[Swami Nigamananda]</b>
+      </li>      
+    </ul>
   </div>
-
+  <br><br><br><br><br><br><br><br>
   <!-- Footer section-->
   <footer id="myFooter">
     <div class="w3-container w3-theme-l2 w3-padding-small">

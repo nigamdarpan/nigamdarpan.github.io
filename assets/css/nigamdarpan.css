@@ -1,0 +1,11 @@
+.w3-image_10{max-width:10%;height:auto}img{vertical-align:middle}a{color:inherit}
+.w3-image_30{max-width:30%;height:auto}img{vertical-align:middle}a{color:inherit}
+.w3-image_50{max-width:50%;height:auto}img{vertical-align:middle}a{color:inherit}
+.w3-image_70{max-width:70%;height:auto}img{vertical-align:middle}a{color:inherit}
+
+.imageborder {
+  border: 30px solid pink;
+  border-image-source: url('./../image/border.png');
+  border-image-slice: 58 90;
+  border-image-repeat: round;
+}
