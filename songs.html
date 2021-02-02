@@ -21,13 +21,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 .w3-image_30{max-width:30%;height:auto}img{vertical-align:middle}a{color:inherit}
 .w3-image_50{max-width:50%;height:auto}img{vertical-align:middle}a{color:inherit}
 .w3-image_70{max-width:70%;height:auto}img{vertical-align:middle}a{color:inherit}
-
-.imageborder {
-  border: 30px solid pink;
-  border-image-source: url('assets/image/border.png');
-  border-image-slice: 58 90;
-  border-image-repeat: round;
-}
 </style>
 <body>
 
@@ -52,6 +45,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <a href="events.html" class="w3-bar-item w3-button w3-hover-white">Events</a>
     <a href="thakura-vani.html" class="w3-bar-item w3-button w3-hover-white">Thakura Vani</a>
     <a href="todays_amrutavani.html" class="w3-bar-item w3-button w3-hover-white">Today's Amrutavani</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-hover-white">Gallery</a>
     <a href="downloads.html" class="w3-bar-item w3-button w3-hover-white">Downloads</a>
     <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">About</a>
     <a href="contact-us.html" class="w3-bar-item w3-button w3-hide-medium w3-hover-white">Contact Us</a>
@@ -63,10 +57,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <i class="fa fa-remove"></i>
   </a>
   <h4 class="w3-bar-item"><b>Menu</b></h4>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#picture_gallery">Picture Gallery</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#video_gallery">Video Gallery</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#songs_gallery">Songs Gallery</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#books_gallery">Books Gallery</a>
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -74,50 +64,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
 <div class="w3-main" style="margin-left:250px">
-
-  <!-- Picture Gallery section-->
-  <div class="w3-row w3-container" >
-    <h1 class="w3-text-teal" id="picture_gallery">Picture Gallery</h1>
-  </div>
-  <div class="w3-row">
-    <div class="w3-third w3-container imageborder">
-      <p class="w3-border w3-padding w3-center">
-        <img class="w3-image_70" src="assets\sribigraha\bigraha_1.jpg" >
-      </p>
-    </div>
-    <div class="w3-third w3-container imageborder">
-      <p class="w3-border w3-padding w3-center">
-        <img class="w3-image_50" src="assets\sribigraha\bigraha_2.jpg" >
-      </p>
-    </div>
-    <div class="w3-third w3-container imageborder">
-      <p class="w3-border w3-padding w3-center">
-        <img class="w3-image_50" src="assets\sribigraha\bigraha_3.jpg" >
-      </p>
-    </div>
-  </div>
-
-  <!-- Video Gallery section-->
-  <div class="w3-row w3-container">
-      <h1 class="w3-text-teal" id="video_gallery">Video Gallery</h1>
-  </div>
-  <div class="w3-row">
-    <div class="w3-third w3-container">
-        <iframe src="https://www.youtube.com/embed/wTgHbISO6YY">
-        </iframe>
-        <h6 class="w3-center">(ମନ ପୂଜା ତୋର ବିଫଳେ ନ ଯିବ)</h6>
-    </div>
-    <div class="w3-third w3-container">
-      <iframe src="https://www.youtube.com/embed/ri4DVRNRsGk">                
-      </iframe>
-      <h6 class="w3-center">(କାହିଁକି ତୁ ଯାଉ ତାଙ୍କୁ ଭୁଲି)</h6>
-    </div>
-    <div class="w3-third w3-container">
-      <iframe src="https://www.youtube.com/embed/zOS0kCPKV7w">                
-      </iframe>
-      <h6 class="w3-center">(ସୁନ୍ଦର ପ୍ରଭାତ କୋଳେ)</h6>
-    </div>
-  </div>  
 
   <!-- Songs Gallery section-->
   <div class="w3-row w3-container">
@@ -302,39 +248,17 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       </div>   
     </div>
   </div>
-  <div class="w3-container w3-theme-l4 w3-padding-small">
-    <a href="songs.html">Click here for more Bhajans</a>
-  </div>
 
-  <!-- Books Gallery section-->
-  <div class="w3-row w3-container">
-    <h1 class="w3-text-teal" id="books_gallery">Books Gallery</h1>
-  </div>
-  <div class="w3-row">
-    <div class="w3-third w3-container">
-      <a href="https://archive.org/details/Thakur.Nigamananda.Odia/mode/2up">ଠାକୁର ନିଗମାନନ୍ଦ (Thakura Nigamananda in Odia)</a>
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">ଅ</a>
+      <a class="w3-button w3-hover-black" href="#">ଆ</a>
+      <a class="w3-button w3-hover-black" href="#">କ</a>
+      <a class="w3-button w3-hover-black" href="#">ଖ</a>
+      <a class="w3-button w3-hover-black" href="#">ଗ</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
     </div>
-    <div class="w3-third w3-container">
-      <a href="https://archive.org/details/Yogi.Guru.Nigamananda.Odia">ଯୋଗୀ ଗୁରୁ (Yogi Guru in Odia)</a>
-    </div>  
-    <div class="w3-third w3-container">
-      <a href="https://archive.org/details/Jnani.Guru.Nigamananda.Odia">ଜ୍ଞାନୀ ଗୁରୁ (Gyani Guru in Odia)</a>
-    </div>  
-    <div class="w3-third w3-container">
-      <a href="https://archive.org/details/Tantrika.Guru.Nigamananda">ତାନ୍ତ୍ରିକ ଗୁରୁ (Tantrika Guru in Odia)</a>
-    </div>  
-    <div class="w3-third w3-container">
-      <a href="https://archive.org/details/Vedanta.Viveka.Paramahansa.Nigamananda">ବେଦାନ୍ତ ବିବେକ (Vedanta Viveka in Odia)</a>
-    </div>  
-    <div class="w3-third w3-container">
-      <a href="https://archive.org/details/Brahmacharya.Saadhana.Odia">ବ୍ରହ୍ମଚର୍ଯ୍ୟ ସାଧନ (Brahmacharya Saadhana in Odia)</a>
-    </div>      
-    <div class="w3-third w3-container">
-      <a href="https://archive.org/details/BholaraAtmasmruti">ଭୋଳାର ଆତ୍ମସ୍ମୃତି (Bhola ra Atma smruti in Odia)</a>
-    </div>      
-    <div class="w3-third w3-container">
-      <a href=" https://archive.org/details/Maa.nka.Krupa">ମାଆଙ୍କ କୃପା (Maa nka Krupa in Odia)</a>
-    </div>          
   </div>
 
   <!-- Footer section-->
